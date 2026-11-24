@@ -29,5 +29,5 @@ test('アプリ名が表示される', () => {
 
   render(<Header />)
 
-  expect(screen.getByText('TODOアプリ')).toBeInTheDocument()
+  expect(screen.getByText('TODOアプリnew')).toBeInTheDocument()
 })
